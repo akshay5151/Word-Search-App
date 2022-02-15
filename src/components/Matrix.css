@@ -1,0 +1,65 @@
+#grid {
+    margin:20px auto 40px;
+    box-shadow:0 0 20px rgba(129, 63, 204, 0.2);
+    width:auto;
+    height:auto;
+    padding:20px;
+    background:#3bb4e0;
+    border-radius:10px;
+    font-size:20px;
+    display:inline-flexbox;
+    justify-content: center;
+    float:left;
+    position:relative;
+    top: auto;
+    left:50%;
+    transform: translate(-50%);
+}
+
+.box {
+    margin:3px;
+    width:35px;
+    height:35px;
+    line-height:35px;
+    text-align:center;
+    background:rgb(160, 15, 15);
+    box-shadow:0 0 5px rgba(0,0,0,0.1);
+    border-radius:5px;
+    float:left;
+    color: aliceblue;
+  }
+
+.containerma {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.shadows {
+    position: relative;
+    text-transform: uppercase;
+    text-shadow: -15px 5px 20px #9ba730;
+    color: rgb(188, 150, 224);
+    letter-spacing: -0.05em;
+    font-family: "Anton", Arial, sans-serif;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-transform: uppercase;
+    font-size: 50px;
+    transition: all 0.25s ease-out;
+  }
+  
+  .shadows:hover {
+    text-shadow: -16px 6px 15px #ced0d3;
+  }
+
+.info{
+  width: auto;
+  height: auto;
+  background-color: #9ba730;
+  border-radius: 20px;
+}
